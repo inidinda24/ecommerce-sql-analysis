@@ -1,0 +1,21 @@
+product_id,product_name,category,price
+1,Wireless Mouse,Electronics,25
+2,Mechanical Keyboard,Electronics,80
+3,USB-C Hub,Electronics,45
+4,Webcam HD,Electronics,60
+5,Bluetooth Speaker,Electronics,50
+6,Air Purifier,Home,120
+7,Electric Kettle,Home,40
+8,LED Desk Lamp,Home,35
+9,Mini Vacuum Cleaner,Home,75
+10,Humidifier,Home,55
+11,Basic T-Shirt,Fashion,15
+12,Denim Jacket,Fashion,65
+13,Running Shoes,Fashion,90
+14,Backpack,Fashion,40
+15,Baseball Cap,Fashion,20
+16,Yoga Mat,Sports,30
+17,Dumbbell Set,Sports,70
+18,Fitness Resistance Band,Sports,18
+19,Sports Water Bottle,Sports,12
+20,Jump Rope,Sports,10
