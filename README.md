@@ -87,6 +87,61 @@ By joining customers, orders, order_items, and products tables, the total spendi
 Recognizing high-value customers allows businesses to implement targeted retention strategies and loyalty programs.
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41a9d3ec-a9dc-4606-82aa-f219eb8c6f04" />
 
+## Data Visualization with Power BI
+
+After completing the SQL analysis in PostgreSQL, the resulting dataset was exported and used to build an interactive dashboard in Power BI.
+The purpose of the dashboard is to transform raw SQL query results into visual insights that can help stakeholders understand business performance more easily.
+
+### Data Preparation
+A consolidated dataset was created using SQL by joining the following tables:
+- customers
+- orders
+- order_items
+- products
+
+The query combined transaction data with product and customer information to produce a dataset containing:
+- order information
+- customer details
+- product details
+- quantity and price
+- calculated revenue
+
+This dataset was exported as a CSV file and imported into Power BI for visualization.
+
+### Dashboard Metrics
+Several key metrics were created to evaluate business performance:
+- Total Revenue
+- Total Orders
+- Total Customers
+
+These KPIs provide a high-level overview of the overall sales performance.
+
+### Dashboard Visualizations
+The Power BI dashboard includes the following visualizations:
+
+**1. Monthly Revenue Trend**
+A line chart showing how revenue changes over time. This helps identify sales trends and seasonal patterns.
+
+**2. Top Selling Products**
+A bar chart displaying the products with the highest number of units sold.
+
+**3. Revenue by Product Category**
+This visualization highlights which product categories contribute the most to total revenue.
+
+**4. Top Customers by Revenue**
+A chart showing the customers who generate the highest revenue for the business.
+
+### Interactive Filters
+Slicers were added to allow users to filter the dashboard by:
+- Country
+- Product Category
+- Order Date
+
+These filters enable interactive exploration of the data and provide deeper insights into sales performance across different segments.
+
+### Dashboard Preview
+Below is a preview of the Power BI dashboard created for this project.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/41af6457-f81f-49f6-91d2-bcb7688405ac" />
 
 
 
